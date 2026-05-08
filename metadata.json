@@ -1,0 +1,6 @@
+{
+  "name": "Noorvy Demo",
+  "description": "Demo trading dashboard showcasing the Epistemic Trading Index (ETI): a multi-agent pre-trade risk analyzer on Solana.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["real-time-data", "data-visualization"]
+}
