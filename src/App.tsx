@@ -60,8 +60,8 @@ export default function App() {
       <header className="h-14 border-b border-neutral-800 flex items-center justify-between px-6 bg-[#0e0e0e] shrink-0">
         <div className="flex items-center gap-8">
           <div className="flex items-center gap-2">
-            <div className="w-8 h-8 bg-gradient-to-tr from-purple-500 to-emerald-400 rounded-md"></div>
-            <span className="font-bold tracking-tight text-lg uppercase text-emerald-400">Noorvy Demo</span>
+            <img src="/logo.png" alt="Noorvy" className="w-8 h-8 rounded-md"/>                    
+            <span className="font-bold tracking-tight text-lg uppercase" style={{ color: '#b2d6ff' }}>Noorvy Demo</span>  
           </div>
           
           <nav className="hidden md:flex items-center gap-6 text-sm font-medium text-neutral-400">
