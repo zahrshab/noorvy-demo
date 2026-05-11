@@ -218,7 +218,7 @@ export function TradingPanel({ token }: TradingPanelProps) {
         </div>
 
         <div className="mt-auto">
-          {amount.length > 0 && side === 'buy' && (
+          {amount.length > 0 && side === 'buy' && token.symbol === 'SOL' && (
             <div className="flex flex-col items-center gap-1 mb-4">
               <span className="text-[10px] font-mono text-neutral-600 uppercase tracking-tighter italic">Powered by Noorvy</span>
               <motion.button
